@@ -11,11 +11,22 @@
   },
   "dependencies": {
     "axios": "^1.8.4",
+<<<<<<< HEAD
     "framer-motion": "^11.0.8",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-type-animation": "^3.2.0"
+=======
+    "cheerio": "^1.0.0",
+    "compromise": "^14.14.4",
+    "framer-motion": "^11.18.2",
+    "lucide-react": "^0.344.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-type-animation": "^3.2.0",
+    "sentiment": "^5.0.2"
+>>>>>>> 868b9d4 (Initial commit: Adding AI Fake News Detector)
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",

@@ -7,4 +7,18 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+<<<<<<< HEAD
 });
+=======
+  server: {
+    headers: {
+      'Cross-Origin-Opener-Policy': 'same-origin',
+      'Cross-Origin-Embedder-Policy': 'require-corp',
+    },
+  },
+  build: {
+    target: 'esnext',
+  },
+  assetsInclude: ['**/*.wasm'],
+});
+>>>>>>> 868b9d4 (Initial commit: Adding AI Fake News Detector)
