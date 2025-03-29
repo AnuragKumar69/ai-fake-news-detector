@@ -35,6 +35,13 @@ Installation
 5) Open your browser and visit http://localhost:5173 to see the application
 
 
+How to run backend
+cd project
+cd news-detector-backend
+npm install express cors axios dotenv
+node server.js
+
+
 Usage
 1) Enter text directly into the text area or provide a URL to analyze
 2) Click the "Analyze Content" button
